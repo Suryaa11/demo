@@ -1,0 +1,12 @@
+name: "Hello Action"
+
+description: "Print Hello Message"
+
+inputs:
+  name:
+    description: "Person Name"
+    required: true
+
+runs:
+  using: "node20"
+  main: "index.js"
