@@ -10,8 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install action dependencies
+        run: npm install
+        working-directory: hello-action
+
       - name: Run Custom Action
         uses: ./hello-action
-
         with:
           name: Surya
