@@ -1,0 +1,103 @@
+Commands
+
+pwd : present working directory (/home/username - home directory ~)
+
+uname -a : os version 
+
+whoami : to see the username
+
+history : previous commands
+
+mkdir : to create a directory
+
+cd : change directory
+
+ls : list all files
+
+touch filename : to create file 
+
+vi (editor in linux) 
+	:wq (save and exit)
+	:q! (exit without saving)
+	
+apt-get install : to install packages
+
+rm filename : delete files (* for all)
+
+cat filename : to view the content of the file without opening
+
+cat content >> filename (>> append)
+
+cp source destination
+
+mv source(old filename) destination(new filename)
+
+mkdir -p : to create folder recursively
+
+ls -lstr :
+	-l : long listing format
+	-s : shows file size
+	-t : time created
+	-r : reverse sorting
+	-S : sort (large to small)
+	-a : hidden files/directory
+
+source .bashrc or .bashrc : to execute the file
+
+ln filename1 filename2 : hardlink
+ln -s filename1 filename2 : softlink
+	
+top : to view the process
+
+ps : process status
+
+ps -aux :
+	a : show process of all the users
+	u : user who owns the process
+	x : process attached to terminal(bg)
+	
+kill -9 PID : to kill the process
+
+wget : to download
+
+df -h : disk size
+
+du -sh filename : size utilized
+
+
+
+Linux - Open Source Operating System based on Unix principles
+
+Linux Distributions - Ubuntu, Debian, RedHat, CentOS
+
+Free and open source
+Secure - because of permission based
+Stable
+Customizable
+Efficient
+CLI
+
+Linux is a Kernel
+
+Kernel + Utilities + Bash + Package Manager
+ 
+Linux Distributions are OS built around Kernel
+
+Kernel - core engine of OS(communication bw hardware and software)
+Manages :
+	CPU Scheduling
+	Memory Allocation
+	IO operation
+	Device Management
+
+Linux uses monolithic Kernel(all bundled together)
+
+
+Link
+
+Hard link : 2 references even source gone it just delete the references of source still another file exist
+
+Soft link one point to another  if source gone everything is gone
+
+
+nohup : to run in bg
