@@ -101,3 +101,18 @@ Soft link one point to another  if source gone everything is gone
 
 
 nohup : to run in bg
+
+
+
+
+
+Team — thanks for your time today!
+
+The Public reference documentation for Landing Zone Accelerator and the Universal Configuration can be found at the following URLs:
+Solution GitHub - https://github.com/awslabs/landing-zone-accelerator-on-aws
+Configuration Github - https://github.com/aws/lza-universal-configuration (Layers over the LZA Solution after initial installation)
+Installation Guide - https://docs.aws.amazon.com/solutions/latest/landing-zone-accelerator-on-aws/solution-overview.html
+
+And the Immersion Day Workshop content to review:
+https://catalog.workshops.aws/landing-zone-accelerator/en-US/lza-overview
+
